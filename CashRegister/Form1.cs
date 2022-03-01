@@ -32,6 +32,7 @@ namespace CashRegister
         double change = 0;
 
         SoundPlayer clickSound = new SoundPlayer(Properties.Resources.click);
+        SoundPlayer recieptSound = new SoundPlayer(Properties.Resources.receiptPrinting);
         public Form1()
         {
             InitializeComponent();
@@ -93,6 +94,7 @@ namespace CashRegister
         private void recieptButton_Click(object sender, EventArgs e)
         {
             clickSound.Play();
+            recieptSound.Play();
 
             recieptOutput.Text = "             Computer Shop Inc.";
             Thread.Sleep(500);

@@ -121,4 +121,7 @@
   <data name="click" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\342200__christopherderp__videogame-menu-button-click.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="receiptPrinting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\345053__azumarill__epson-receipt-printer6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
