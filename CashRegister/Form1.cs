@@ -140,7 +140,7 @@ namespace CashRegister
             Thread.Sleep(500);
             Refresh();
 
-            recieptOutput.Text += $"\n     Change                    {change.ToString("$ 0.00")}";
+            recieptOutput.Text += $"\n     Change                    {change.ToString("$ 00.00")}";
             Thread.Sleep(500);
             Refresh();
 
