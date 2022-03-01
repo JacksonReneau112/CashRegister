@@ -18,12 +18,15 @@ namespace CashRegister
         double gpuPrice = 350;
         double cpuPrice = 250;
         double memoryPrice = 80;
+
         int numOfGpu = 0;
         int numOfCpu = 0;
         int numOfMemory = 0;
+
         double gpuTotal = 0;
         double cpuTotal = 0;
         double memoryTotal = 0;
+
         double taxRate = 0.13;
         double subtotal = 0;
         double taxAmount = 0;
@@ -50,6 +53,7 @@ namespace CashRegister
                 gpuTotal = numOfGpu * gpuPrice;
                 cpuTotal = numOfCpu * cpuPrice;
                 memoryTotal = numOfMemory * memoryPrice;
+
                 subtotal = gpuTotal + cpuTotal + memoryTotal;
                 taxAmount = subtotal * taxRate;
                 totalPrice = subtotal + taxAmount;
